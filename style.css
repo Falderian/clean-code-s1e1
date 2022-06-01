@@ -46,7 +46,7 @@
 }
 .input, 
 .btn {
-	outline:none;
+	outline: none;
 }
 .btn {
 	background: none;
@@ -76,8 +76,8 @@
 	line-height: 18px;
 	height: 21px;
 	padding: 0 9px;
-	border: 1px solid #dDd;
-	background: #FFF;
+	border: 1px solid #ddd;
+	background: #fff;
 	border-radius: 6px;
 	font-family: Lato, sans-serif;
 	color: #888;
@@ -106,11 +106,11 @@
 	justify-content: space-between;
 	align-items: center;
 }
-.list__elem > * {
+* {
 	vertical-align: middle;
 }
 
-.list__elem > .input-checkbox {
+.input-checkbox {
 	margin: 0 10px;
 }
 .task__label {
@@ -119,7 +119,7 @@
 	font-size: 18px;
 	width: 226px;
 }
-.list__elem > .task__input {
+ .task__input {
 	width: 226px;
 }
 .btn-del__img {
