@@ -27,6 +27,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task__input,
 .task_incomplete .task__label,
 .task_complete .task__label {
@@ -95,17 +96,16 @@
   display: block;
   width: 318px;
 }
-
 /* Task list */
 .list__elem {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 * {
   vertical-align: middle;
 }
